@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  background-color: cadetblue;
+}
+
+.main-conte{
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section{
+  grid-column: span 2;
+  height: 100%;
+  background-color: #00324a;
+}
+
+.right-section{
+  grid-column: span 5;
+  height: 100%;
+  background-color: aliceblue;
+
+}
+
+.left-content{
+  padding: 1rem 1rem;
+}
+
+.profile{
+  width: 100%;
+  /* border-bottom: 1px solid beige; */
+}
+
+.name{
+  font-size: 1.7rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.2rem 0;
+}
+
+.career{
+  font-size: 1.2rem;
+  color: bisque;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+/*Contacts Section*/
+
+.main-title{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: bisque;
+  padding-top: 1rem;
+}
+
+.contact-info ul{
+  padding-top: .4rem;
+  border-top: 1px solid beige;
+}
+.contact-info ul li{
+  padding: .4rem 0;
+  display: flex;
+  align-items: center;
+  color: beige;
+}
+.contact-info ul li i{
+  padding-right: 1rem;
+  font-size: 1rem;
+  color: brown;
+}
+
+/*Skills section*/
+
+.skills-section ul{
+  padding-top: .8rem;
+  border-top: 1px solid beige;
+}
+
+.skills-section ul li{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: .2rem 0;
+}
+.skill-title{
+  text-transform: uppercase;
+  color: beige;
+  font-size: .7rem;
+}
+
+.progress-bar{
+  width: 100%;
+  height: .2rem;
+  background-color: bisque;
+  position: relative;
+  border-radius: 12px;
+}
+.progress{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: chocolate;
+  border-radius: 12px;
+}
+.java-proress{
+  width: 80%;
+}
+.Spring-MVC{
+  width: 60%;
+}
+.Spring-Boot{
+  width: 60%;
+}
+.Phyton-proress{
+  width: 50%;
+}
+.Docker{
+  width: 70%;
+}
+.SQL{
+  width: 70%;
+}
+.Html{
+  width: 70%;
+}
+.Css{
+  width: 70%;
+}
+.GitHub{
+  width: 70%;
+}
+
+/*Hobbies Section*/
+
+.hobbies-section ul{
+  padding-top: .5rem;
+  border-top: 1px solid beige;
+}
+.hobbies-section ul li{
+  padding: .4rem 0;
+  display: flex;
+  align-items: center;
+  color: beige;
+}
+.hobbies-section ul li i{
+  padding-right: 1rem;
+  font-size: 1rem;
+  color: brown;
+}
